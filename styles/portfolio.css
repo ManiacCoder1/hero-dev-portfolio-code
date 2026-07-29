@@ -29,6 +29,7 @@
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
     
    
     
@@ -37,6 +38,11 @@
  header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background-image: url(../images/developer.png) , url(../images/header_bg.png) ;
+    /* to add multiple background images */
+    background-position: top left , bottom right;
+    /* to set multiple background images position */
+    background-repeat: no-repeat;
  }
  nav{
     width: 71%;
@@ -62,3 +68,41 @@
     color: #474747;
     text-decoration: none;
  }
+ #banner{
+    border: 2px solid red;
+    margin: 35px 13px 0px 222px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* above two lines of code are used to set two items two opposite side and in the middle of a div */
+ }
+ #banner .banner-content{
+    max-width: 585px;
+ }
+ #banner .banner-content h2{
+    font-size: 45px;
+    color:#474747;
+    font-weight: 600px;
+    margin-bottom: 5px;
+
+
+ }
+ #banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    border: 1px solid red;
+    margin-bottom: 20px;
+ }
+ #banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+ }
+ #banner .banner-image img{
+    max-width: 684px;
+    vertical-align: middle;
+    /* to remove gap from the under of the image */
+ } 
